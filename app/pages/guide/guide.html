@@ -1,0 +1,18 @@
+<ion-content padding>
+
+    <ion-item>
+      <ion-label fixed>Schlagworte</ion-label>
+      <ion-input type="text" [(ngModel)]="query"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label fixed>Ort</ion-label>
+      <ion-input type="text" [(ngModel)]="location"></ion-input>
+    </ion-item>
+
+    <div class="buttons">
+      <button (click)="getLocation()">Geolocation</button>
+      <button (click)="saveSettings()">Speichern</button>
+    </div>
+
+</ion-content>

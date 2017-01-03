@@ -1,0 +1,16 @@
+<ion-navbar *navbar>
+  <ion-title>Dashboard</ion-title>
+</ion-navbar>
+
+<ion-content>
+
+  <ion-tabs>
+    <ion-tab tabIcon="star" [root]="favoritesPage"></ion-tab>
+    <ion-tab tabIcon="checkmark" [root]="interestingPage"></ion-tab>
+    <ion-tab tabIcon="close" [root]="uninterestingPage"></ion-tab>
+    <ion-tab tabIcon="mail" [root]="applicationsPage"></ion-tab>
+    <ion-tab tabIcon="person" [root]="profilePage"></ion-tab>
+    <ion-tab tabIcon="settings" [root]="settingsPage"></ion-tab>
+  </ion-tabs>
+
+</ion-content>
